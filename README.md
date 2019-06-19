@@ -11,3 +11,16 @@ It relies on ```GoogleTest``` and ```RapidCheck``` frameworks.
 - https://github.com/emil-e/rapidcheck/blob/master/doc/generators_ref.md
 
 Talk: https://dubzzz.github.io/property-based-testing-cpp/talk/talk.v4.html
+
+Sebastian: notes
+We must install gtest in order for this to work.
+
+```
+git clone https://github.com/google/googletest
+cd googletest
+mkdir build
+cd build
+cmake ..
+make
+make install
+```

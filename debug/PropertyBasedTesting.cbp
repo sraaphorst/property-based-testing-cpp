@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="PropertyBasedTesting"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;CMake Files\rapidcheck\;CMake Files\rapidcheck\ext\;CMake Files\rapidcheck\extras\;CMake Files\musicplayer\;CMake Files\shadows-of-the-knight\;CMake Files\string-contains\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/sraaphorst/Development/C++/property-based-testing-cpp/debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sraaphorst/Development/C++/property-based-testing-cpp/debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sraaphorst/Development/C++/property-based-testing-cpp/debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sraaphorst/Development/C++/property-based-testing-cpp/debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sraaphorst/Development/C++/property-based-testing-cpp/debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/sraaphorst/Development/C++/property-based-testing-cpp/debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sraaphorst/Development/C++/property-based-testing-cpp/debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sraaphorst/Development/C++/property-based-testing-cpp/debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sraaphorst/Development/C++/property-based-testing-cpp/debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sraaphorst/Development/C++/property-based-testing-cpp/debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/sraaphorst/Development/C++/property-based-testing-cpp/debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sraaphorst/Development/C++/property-based-testing-cpp/debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sraaphorst/Development/C++/property-based-testing-cpp/debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sraaphorst/Development/C++/property-based-testing-cpp/debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sraaphorst/Development/C++/property-based-testing-cpp/debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option working_dir="/Users/sraaphorst/Development/C++/property-based-testing-cpp/debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sraaphorst/Development/C++/property-based-testing-cpp/debug/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sraaphorst/Development/C++/property-based-testing-cpp/debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sraaphorst/Development/C++/property-based-testing-cpp/debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sraaphorst/Development/C++/property-based-testing-cpp/debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rapidcheck">
+				<Option output="/Users/sraaphorst/Development/C++/property-based-testing-cpp/debug/rapidcheck/librapidcheck.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/sraaphorst/Development/C++/property-based-testing-cpp/debug/rapidcheck"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/sraaphorst/Development/C++/property-based-testing-cpp/rapidcheck/include"/>
+					<Add directory="/usr/local/opt/llvm/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/llvm/8.0.0_1/lib/clang/8.0.0/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sraaphorst/Development/C++/property-based-testing-cpp/debug/rapidcheck/Makefile&quot;  VERBOSE=1 rapidcheck"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sraaphorst/Development/C++/property-based-testing-cpp/debug/rapidcheck/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sraaphorst/Development/C++/property-based-testing-cpp/debug/rapidcheck/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sraaphorst/Development/C++/property-based-testing-cpp/debug/rapidcheck/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rapidcheck/fast">
+				<Option output="/Users/sraaphorst/Development/C++/property-based-testing-cpp/debug/rapidcheck/librapidcheck.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/sraaphorst/Development/C++/property-based-testing-cpp/debug/rapidcheck"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/sraaphorst/Development/C++/property-based-testing-cpp/rapidcheck/include"/>
+					<Add directory="/usr/local/opt/llvm/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/llvm/8.0.0_1/lib/clang/8.0.0/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sraaphorst/Development/C++/property-based-testing-cpp/debug/rapidcheck/Makefile&quot;  VERBOSE=1 rapidcheck/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sraaphorst/Development/C++/property-based-testing-cpp/debug/rapidcheck/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sraaphorst/Development/C++/property-based-testing-cpp/debug/rapidcheck/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sraaphorst/Development/C++/property-based-testing-cpp/debug/rapidcheck/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="musicplayer">
+				<Option output="/Users/sraaphorst/Development/C++/property-based-testing-cpp/debug/build/musicplayer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/sraaphorst/Development/C++/property-based-testing-cpp/debug/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/sraaphorst/Development/C++/property-based-testing-cpp/rapidcheck/include"/>
+					<Add directory="/Users/sraaphorst/Development/C++/property-based-testing-cpp/rapidcheck/extras/gtest/include"/>
+					<Add directory="/usr/local/opt/llvm/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm/8.0.0_1/lib/clang/8.0.0/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sraaphorst/Development/C++/property-based-testing-cpp/debug/musicplayer/Makefile&quot;  VERBOSE=1 musicplayer"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sraaphorst/Development/C++/property-based-testing-cpp/debug/musicplayer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sraaphorst/Development/C++/property-based-testing-cpp/debug/musicplayer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sraaphorst/Development/C++/property-based-testing-cpp/debug/musicplayer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="musicplayer/fast">
+				<Option output="/Users/sraaphorst/Development/C++/property-based-testing-cpp/debug/build/musicplayer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/sraaphorst/Development/C++/property-based-testing-cpp/debug/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/sraaphorst/Development/C++/property-based-testing-cpp/rapidcheck/include"/>
+					<Add directory="/Users/sraaphorst/Development/C++/property-based-testing-cpp/rapidcheck/extras/gtest/include"/>
+					<Add directory="/usr/local/opt/llvm/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm/8.0.0_1/lib/clang/8.0.0/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sraaphorst/Development/C++/property-based-testing-cpp/debug/musicplayer/Makefile&quot;  VERBOSE=1 musicplayer/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sraaphorst/Development/C++/property-based-testing-cpp/debug/musicplayer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sraaphorst/Development/C++/property-based-testing-cpp/debug/musicplayer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sraaphorst/Development/C++/property-based-testing-cpp/debug/musicplayer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="shadows-of-the-knight">
+				<Option output="/Users/sraaphorst/Development/C++/property-based-testing-cpp/debug/build/shadows-of-the-knight" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/sraaphorst/Development/C++/property-based-testing-cpp/debug/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/sraaphorst/Development/C++/property-based-testing-cpp/rapidcheck/include"/>
+					<Add directory="/Users/sraaphorst/Development/C++/property-based-testing-cpp/rapidcheck/extras/gtest/include"/>
+					<Add directory="/usr/local/opt/llvm/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm/8.0.0_1/lib/clang/8.0.0/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sraaphorst/Development/C++/property-based-testing-cpp/debug/shadows-of-the-knight/Makefile&quot;  VERBOSE=1 shadows-of-the-knight"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sraaphorst/Development/C++/property-based-testing-cpp/debug/shadows-of-the-knight/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sraaphorst/Development/C++/property-based-testing-cpp/debug/shadows-of-the-knight/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sraaphorst/Development/C++/property-based-testing-cpp/debug/shadows-of-the-knight/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="shadows-of-the-knight/fast">
+				<Option output="/Users/sraaphorst/Development/C++/property-based-testing-cpp/debug/build/shadows-of-the-knight" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/sraaphorst/Development/C++/property-based-testing-cpp/debug/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/sraaphorst/Development/C++/property-based-testing-cpp/rapidcheck/include"/>
+					<Add directory="/Users/sraaphorst/Development/C++/property-based-testing-cpp/rapidcheck/extras/gtest/include"/>
+					<Add directory="/usr/local/opt/llvm/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm/8.0.0_1/lib/clang/8.0.0/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sraaphorst/Development/C++/property-based-testing-cpp/debug/shadows-of-the-knight/Makefile&quot;  VERBOSE=1 shadows-of-the-knight/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sraaphorst/Development/C++/property-based-testing-cpp/debug/shadows-of-the-knight/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sraaphorst/Development/C++/property-based-testing-cpp/debug/shadows-of-the-knight/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sraaphorst/Development/C++/property-based-testing-cpp/debug/shadows-of-the-knight/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="string-contains">
+				<Option output="/Users/sraaphorst/Development/C++/property-based-testing-cpp/debug/build/string-contains" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/sraaphorst/Development/C++/property-based-testing-cpp/debug/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/sraaphorst/Development/C++/property-based-testing-cpp/rapidcheck/include"/>
+					<Add directory="/Users/sraaphorst/Development/C++/property-based-testing-cpp/rapidcheck/extras/gtest/include"/>
+					<Add directory="/usr/local/opt/llvm/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm/8.0.0_1/lib/clang/8.0.0/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sraaphorst/Development/C++/property-based-testing-cpp/debug/string-contains/Makefile&quot;  VERBOSE=1 string-contains"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sraaphorst/Development/C++/property-based-testing-cpp/debug/string-contains/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sraaphorst/Development/C++/property-based-testing-cpp/debug/string-contains/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sraaphorst/Development/C++/property-based-testing-cpp/debug/string-contains/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="string-contains/fast">
+				<Option output="/Users/sraaphorst/Development/C++/property-based-testing-cpp/debug/build/string-contains" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/sraaphorst/Development/C++/property-based-testing-cpp/debug/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/sraaphorst/Development/C++/property-based-testing-cpp/rapidcheck/include"/>
+					<Add directory="/Users/sraaphorst/Development/C++/property-based-testing-cpp/rapidcheck/extras/gtest/include"/>
+					<Add directory="/usr/local/opt/llvm/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm/8.0.0_1/lib/clang/8.0.0/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sraaphorst/Development/C++/property-based-testing-cpp/debug/string-contains/Makefile&quot;  VERBOSE=1 string-contains/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sraaphorst/Development/C++/property-based-testing-cpp/debug/string-contains/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sraaphorst/Development/C++/property-based-testing-cpp/debug/string-contains/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sraaphorst/Development/C++/property-based-testing-cpp/debug/string-contains/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/sraaphorst/Development/C++/property-based-testing-cpp/musicplayer/implem.inl.hpp">
+			<Option target="musicplayer"/>
+		</Unit>
+		<Unit filename="/Users/sraaphorst/Development/C++/property-based-testing-cpp/musicplayer/main.cpp">
+			<Option target="musicplayer"/>
+		</Unit>
+		<Unit filename="/Users/sraaphorst/Development/C++/property-based-testing-cpp/rapidcheck/src/BeforeMinimalTestCase.cpp">
+			<Option target="rapidcheck"/>
+		</Unit>
+		<Unit filename="/Users/sraaphorst/Development/C++/property-based-testing-cpp/rapidcheck/src/Check.cpp">
+			<Option target="rapidcheck"/>
+		</Unit>
+		<Unit filename="/Users/sraaphorst/Development/C++/property-based-testing-cpp/rapidcheck/src/Classify.cpp">
+			<Option target="rapidcheck"/>
+		</Unit>
+		<Unit filename="/Users/sraaphorst/Development/C++/property-based-testing-cpp/rapidcheck/src/GenerationFailure.cpp">
+			<Option target="rapidcheck"/>
+		</Unit>
+		<Unit filename="/Users/sraaphorst/Development/C++/property-based-testing-cpp/rapidcheck/src/Log.cpp">
+			<Option target="rapidcheck"/>
+		</Unit>
+		<Unit filename="/Users/sraaphorst/Development/C++/property-based-testing-cpp/rapidcheck/src/Random.cpp">
+			<Option target="rapidcheck"/>
+		</Unit>
+		<Unit filename="/Users/sraaphorst/Development/C++/property-based-testing-cpp/rapidcheck/src/Show.cpp">
+			<Option target="rapidcheck"/>
+		</Unit>
+		<Unit filename="/Users/sraaphorst/Development/C++/property-based-testing-cpp/rapidcheck/src/detail/Any.cpp">
+			<Option target="rapidcheck"/>
+		</Unit>
+		<Unit filename="/Users/sraaphorst/Development/C++/property-based-testing-cpp/rapidcheck/src/detail/Assertions.cpp">
+			<Option target="rapidcheck"/>
+		</Unit>
+		<Unit filename="/Users/sraaphorst/Development/C++/property-based-testing-cpp/rapidcheck/src/detail/Base64.cpp">
+			<Option target="rapidcheck"/>
+		</Unit>
+		<Unit filename="/Users/sraaphorst/Development/C++/property-based-testing-cpp/rapidcheck/src/detail/Base64.h">
+			<Option target="rapidcheck"/>
+		</Unit>
+		<Unit filename="/Users/sraaphorst/Development/C++/property-based-testing-cpp/rapidcheck/src/detail/Configuration.cpp">
+			<Option target="rapidcheck"/>
+		</Unit>
+		<Unit filename="/Users/sraaphorst/Development/C++/property-based-testing-cpp/rapidcheck/src/detail/DefaultTestListener.cpp">
+			<Option target="rapidcheck"/>
+		</Unit>
+		<Unit filename="/Users/sraaphorst/Development/C++/property-based-testing-cpp/rapidcheck/src/detail/DefaultTestListener.h">
+			<Option target="rapidcheck"/>
+		</Unit>
+		<Unit filename="/Users/sraaphorst/Development/C++/property-based-testing-cpp/rapidcheck/src/detail/FrequencyMap.cpp">
+			<Option target="rapidcheck"/>
+		</Unit>
+		<Unit filename="/Users/sraaphorst/Development/C++/property-based-testing-cpp/rapidcheck/src/detail/ImplicitParam.cpp">
+			<Option target="rapidcheck"/>
+		</Unit>
+		<Unit filename="/Users/sraaphorst/Development/C++/property-based-testing-cpp/rapidcheck/src/detail/LogTestListener.cpp">
+			<Option target="rapidcheck"/>
+		</Unit>
+		<Unit filename="/Users/sraaphorst/Development/C++/property-based-testing-cpp/rapidcheck/src/detail/LogTestListener.h">
+			<Option target="rapidcheck"/>
+		</Unit>
+		<Unit filename="/Users/sraaphorst/Development/C++/property-based-testing-cpp/rapidcheck/src/detail/MapParser.cpp">
+			<Option target="rapidcheck"/>
+		</Unit>
+		<Unit filename="/Users/sraaphorst/Development/C++/property-based-testing-cpp/rapidcheck/src/detail/MapParser.h">
+			<Option target="rapidcheck"/>
+		</Unit>
+		<Unit filename="/Users/sraaphorst/Development/C++/property-based-testing-cpp/rapidcheck/src/detail/MulticastTestListener.cpp">
+			<Option target="rapidcheck"/>
+		</Unit>
+		<Unit filename="/Users/sraaphorst/Development/C++/property-based-testing-cpp/rapidcheck/src/detail/MulticastTestListener.h">
+			<Option target="rapidcheck"/>
+		</Unit>
+		<Unit filename="/Users/sraaphorst/Development/C++/property-based-testing-cpp/rapidcheck/src/detail/ParseException.cpp">
+			<Option target="rapidcheck"/>
+		</Unit>
+		<Unit filename="/Users/sraaphorst/Development/C++/property-based-testing-cpp/rapidcheck/src/detail/ParseException.h">
+			<Option target="rapidcheck"/>
+		</Unit>
+		<Unit filename="/Users/sraaphorst/Development/C++/property-based-testing-cpp/rapidcheck/src/detail/Platform.cpp">
+			<Option target="rapidcheck"/>
+		</Unit>
+		<Unit filename="/Users/sraaphorst/Development/C++/property-based-testing-cpp/rapidcheck/src/detail/Property.cpp">
+			<Option target="rapidcheck"/>
+		</Unit>
+		<Unit filename="/Users/sraaphorst/Development/C++/property-based-testing-cpp/rapidcheck/src/detail/PropertyContext.cpp">
+			<Option target="rapidcheck"/>
+		</Unit>
+		<Unit filename="/Users/sraaphorst/Development/C++/property-based-testing-cpp/rapidcheck/src/detail/ReproduceListener.cpp">
+			<Option target="rapidcheck"/>
+		</Unit>
+		<Unit filename="/Users/sraaphorst/Development/C++/property-based-testing-cpp/rapidcheck/src/detail/ReproduceListener.h">
+			<Option target="rapidcheck"/>
+		</Unit>
+		<Unit filename="/Users/sraaphorst/Development/C++/property-based-testing-cpp/rapidcheck/src/detail/Results.cpp">
+			<Option target="rapidcheck"/>
+		</Unit>
+		<Unit filename="/Users/sraaphorst/Development/C++/property-based-testing-cpp/rapidcheck/src/detail/Serialization.cpp">
+			<Option target="rapidcheck"/>
+		</Unit>
+		<Unit filename="/Users/sraaphorst/Development/C++/property-based-testing-cpp/rapidcheck/src/detail/StringSerialization.cpp">
+			<Option target="rapidcheck"/>
+		</Unit>
+		<Unit filename="/Users/sraaphorst/Development/C++/property-based-testing-cpp/rapidcheck/src/detail/StringSerialization.h">
+			<Option target="rapidcheck"/>
+		</Unit>
+		<Unit filename="/Users/sraaphorst/Development/C++/property-based-testing-cpp/rapidcheck/src/detail/TestMetadata.cpp">
+			<Option target="rapidcheck"/>
+		</Unit>
+		<Unit filename="/Users/sraaphorst/Development/C++/property-based-testing-cpp/rapidcheck/src/detail/TestParams.cpp">
+			<Option target="rapidcheck"/>
+		</Unit>
+		<Unit filename="/Users/sraaphorst/Development/C++/property-based-testing-cpp/rapidcheck/src/detail/Testing.cpp">
+			<Option target="rapidcheck"/>
+		</Unit>
+		<Unit filename="/Users/sraaphorst/Development/C++/property-based-testing-cpp/rapidcheck/src/detail/Testing.h">
+			<Option target="rapidcheck"/>
+		</Unit>
+		<Unit filename="/Users/sraaphorst/Development/C++/property-based-testing-cpp/rapidcheck/src/gen/Numeric.cpp">
+			<Option target="rapidcheck"/>
+		</Unit>
+		<Unit filename="/Users/sraaphorst/Development/C++/property-based-testing-cpp/rapidcheck/src/gen/Text.cpp">
+			<Option target="rapidcheck"/>
+		</Unit>
+		<Unit filename="/Users/sraaphorst/Development/C++/property-based-testing-cpp/rapidcheck/src/gen/detail/ExecHandler.cpp">
+			<Option target="rapidcheck"/>
+		</Unit>
+		<Unit filename="/Users/sraaphorst/Development/C++/property-based-testing-cpp/rapidcheck/src/gen/detail/GenerationHandler.cpp">
+			<Option target="rapidcheck"/>
+		</Unit>
+		<Unit filename="/Users/sraaphorst/Development/C++/property-based-testing-cpp/rapidcheck/src/gen/detail/Recipe.cpp">
+			<Option target="rapidcheck"/>
+		</Unit>
+		<Unit filename="/Users/sraaphorst/Development/C++/property-based-testing-cpp/rapidcheck/src/gen/detail/ScaleInteger.cpp">
+			<Option target="rapidcheck"/>
+		</Unit>
+		<Unit filename="/Users/sraaphorst/Development/C++/property-based-testing-cpp/shadows-of-the-knight/implem.inl.hpp">
+			<Option target="shadows-of-the-knight"/>
+		</Unit>
+		<Unit filename="/Users/sraaphorst/Development/C++/property-based-testing-cpp/shadows-of-the-knight/main.cpp">
+			<Option target="shadows-of-the-knight"/>
+		</Unit>
+		<Unit filename="/Users/sraaphorst/Development/C++/property-based-testing-cpp/string-contains/implem.inl.hpp">
+			<Option target="string-contains"/>
+		</Unit>
+		<Unit filename="/Users/sraaphorst/Development/C++/property-based-testing-cpp/string-contains/main.cpp">
+			<Option target="string-contains"/>
+		</Unit>
+		<Unit filename="/Users/sraaphorst/Development/C++/property-based-testing-cpp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/sraaphorst/Development/C++/property-based-testing-cpp/rapidcheck/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\rapidcheck\"/>
+		</Unit>
+		<Unit filename="/Users/sraaphorst/Development/C++/property-based-testing-cpp/rapidcheck/ext/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\rapidcheck\ext\"/>
+		</Unit>
+		<Unit filename="/Users/sraaphorst/Development/C++/property-based-testing-cpp/rapidcheck/extras/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\rapidcheck\extras\"/>
+		</Unit>
+		<Unit filename="/Users/sraaphorst/Development/C++/property-based-testing-cpp/musicplayer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\musicplayer\"/>
+		</Unit>
+		<Unit filename="/Users/sraaphorst/Development/C++/property-based-testing-cpp/shadows-of-the-knight/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\shadows-of-the-knight\"/>
+		</Unit>
+		<Unit filename="/Users/sraaphorst/Development/C++/property-based-testing-cpp/string-contains/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\string-contains\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
